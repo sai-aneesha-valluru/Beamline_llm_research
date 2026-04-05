@@ -1,0 +1,35 @@
+venv/
+# Python
+__pycache__/
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Models
+*.pt
+*.bin
+*.safetensors
+
+# Checkpoints
+checkpoint-*/
+
+# Large training artifacts
+optimizer.pt
+trainer_state.json
+
+# Excel results
+*.xlsx
+
+# Data
+data/
+Distillation_claude/
+text-agent-lora/
+codellama-rawtext-qlora/
+
+!faiss_index_md/
+!faiss_index_md/*
+!faiss_index_pdf/
+!faiss_index_pdf/*
+
+faiss_cs*/
