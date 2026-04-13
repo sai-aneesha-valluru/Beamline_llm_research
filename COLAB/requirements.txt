@@ -1,3 +1,5 @@
+torch
+torchvision
 streamlit>=1.30
 langchain>=0.3
 langchain-community>=0.3
