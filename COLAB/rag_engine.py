@@ -226,7 +226,7 @@ def ask_rag(query: str) -> str:
     )
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-3.1-pro-preview",
+        model="gemini-2.5-flash",
         temperature=0.0,   # ← restored to 0 for deterministic, precise answers
         max_retries=5,
     )
